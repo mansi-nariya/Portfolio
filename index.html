@@ -1,258 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Mansi Nariya - Software Developer, Visiting Faculty and AI & Web Technology Educator Portfolio">
-  <title>Mansi Nariya | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio website">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header class="header">
-    <nav class="navbar container">
-      <a href="#home" class="logo">MN<span>.</span></a>
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Portfolio<span>.</span></a>
 
-      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
-        ☰
-      </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <main>
+        <!-- HERO -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+                    <h1>Hi, I'm <span>Your Name</span></h1>
+                    <h2>Python Full Stack Developer</h2>
+                    <p class="hero-description">
+                        I enjoy building clean, useful and user-friendly web applications
+                        while continuously learning new technologies and improving my skills.
+                    </p>
 
-  <main>
-    <!-- HERO -->
-    <section id="home" class="hero">
-      <div class="container hero-content">
-        <div class="hero-text">
-          <p class="eyebrow">SOFTWARE DEVELOPER • FACULTY • AI ENTHUSIAST</p>
-          <h1>Hi, I'm <span>Mansi Nariya</span></h1>
-          <h2>Building digital experiences & teaching the technology behind them.</h2>
-          <p class="hero-description">
-            I am a software development student, visiting faculty member and technology educator
-            focused on web development, AI tools, automation and modern digital technologies.
-          </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn primary-btn">View My Work</a>
+                        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                    </div>
+                </div>
 
-          <div class="hero-buttons">
-            <a href="#projects" class="btn btn-primary">View My Work</a>
-            <a href="#contact" class="btn btn-secondary">Let's Connect</a>
-          </div>
-
-          <div class="quick-stats">
-            <div><strong>Web</strong><span>Development</span></div>
-            <div><strong>AI</strong><span>Tools & Automation</span></div>
-            <div><strong>Teach</strong><span>Technology & Coding</span></div>
-          </div>
-        </div>
-
-        <div class="hero-card">
-          <div class="profile-placeholder">MN</div>
-          <div class="floating-card card-one">HTML • CSS • JS</div>
-          <div class="floating-card card-two">AI + Automation</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section id="about" class="section">
-      <div class="container two-column">
-        <div>
-          <p class="section-label">01 — ABOUT ME</p>
-          <h2 class="section-title">Technology, teaching & continuous learning.</h2>
-        </div>
-
-        <div class="about-text">
-          <p>
-            I am passionate about combining software development with education. My interests
-            include full-stack web development, artificial intelligence, prompt engineering,
-            automation and emerging technologies.
-          </p>
-          <p>
-            Alongside my technical journey, I work in education where I teach students practical
-            computer and coding concepts and help them explore creative technologies.
-          </p>
-
-          <div class="about-highlights">
-            <div><span>🎓</span><p><strong>Education</strong><br>Integrated M.Sc. IT – Software Development</p></div>
-            <div><span>👩‍🏫</span><p><strong>Teaching</strong><br>Visiting Faculty & Faculty Head</p></div>
-            <div><span>💡</span><p><strong>Focus</strong><br>Web, AI, Automation & Digital Technologies</p></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SKILLS -->
-    <section id="skills" class="section section-alt">
-      <div class="container">
-        <p class="section-label">02 — SKILLS</p>
-        <h2 class="section-title">My technical toolkit.</h2>
-
-        <div class="skills-grid">
-          <div class="skill-card">
-            <span class="skill-icon">01</span>
-            <h3>Frontend</h3>
-            <p>HTML5, CSS3, JavaScript, Responsive Design, React JS</p>
-          </div>
-
-          <div class="skill-card">
-            <span class="skill-icon">02</span>
-            <h3>Backend</h3>
-            <p>Node.js, MongoDB, Python, C and C++</p>
-          </div>
-
-          <div class="skill-card">
-            <span class="skill-icon">03</span>
-            <h3>AI & Automation</h3>
-            <p>AI-assisted tools, prompt engineering, automation and creative AI workflows</p>
-          </div>
-
-          <div class="skill-card">
-            <span class="skill-icon">04</span>
-            <h3>Creative Tech</h3>
-            <p>Blender, Photoshop, Illustrator, 3D printing, VR and digital design</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- EXPERIENCE -->
-    <section id="experience" class="section">
-      <div class="container">
-        <p class="section-label">03 — EXPERIENCE</p>
-        <h2 class="section-title">Where I teach & create.</h2>
-
-        <div class="timeline">
-          <article class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <span class="timeline-date">AUG 2026 — PRESENT</span>
-              <h3>Visiting Faculty Member</h3>
-              <h4>M. P. Arts & M. H. Commerce College for Women</h4>
-              <p>
-                Teaching students through practical and technology-focused learning,
-                with an emphasis on digital skills and modern computing concepts.
-              </p>
+                <div class="hero-card">
+                    <div class="profile-circle">YN</div>
+                    <p>Developer • Learner • Creator</p>
+                </div>
             </div>
-          </article>
+        </section>
 
-          <article class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <span class="timeline-date">MAR 2025 — PRESENT</span>
-              <h3>Faculty Head</h3>
-              <h4>Learnomine Academy</h4>
-              <p>
-                Teaching coding and emerging technologies including HTML, CSS, JavaScript,
-                React JS, Python, Code.org, 3D printing and VR.
-              </p>
+        <!-- ABOUT -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">ABOUT ME</p>
+                    <h2>Turning ideas into <span>digital experiences.</span></h2>
+                </div>
+
+                <div class="about-grid">
+                    <div>
+                        <p>
+                            I'm a passionate developer interested in creating practical
+                            applications and learning how real-world software is designed,
+                            developed and deployed.
+                        </p>
+                        <p>
+                            My technical journey includes Python, web development,
+                            databases and front-end technologies. I believe in learning
+                            by building, experimenting and improving.
+                        </p>
+                    </div>
+
+                    <div class="about-stats">
+                        <div class="stat">
+                            <strong>01+</strong>
+                            <span>Years Learning</span>
+                        </div>
+                        <div class="stat">
+                            <strong>05+</strong>
+                            <span>Projects</span>
+                        </div>
+                        <div class="stat">
+                            <strong>10+</strong>
+                            <span>Technologies</span>
+                        </div>
+                        <div class="stat">
+                            <strong>∞</strong>
+                            <span>Curiosity</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </article>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="section alt-section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">MY SKILLS</p>
+                    <h2>Technologies I <span>work with.</span></h2>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">PY</div>
+                        <h3>Python</h3>
+                        <p>Programming, logic, automation and application development.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">HT</div>
+                        <h3>HTML</h3>
+                        <p>Semantic and responsive website structure.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">CS</div>
+                        <h3>CSS</h3>
+                        <p>Modern layouts, responsive design and animations.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">JS</div>
+                        <h3>JavaScript</h3>
+                        <p>Interactive and dynamic web experiences.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">DB</div>
+                        <h3>Database</h3>
+                        <p>Working with data, queries and database concepts.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">FS</div>
+                        <h3>Full Stack</h3>
+                        <p>Understanding both front-end and back-end development.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">MY PROJECTS</p>
+                    <h2>Some things I've <span>built.</span></h2>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-number">01</div>
+                        <h3>Python Calculator</h3>
+                        <p>
+                            A beginner-friendly calculator project built to practice
+                            Python conditions, loops and user input.
+                        </p>
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>Logic</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-number">02</div>
+                        <h3>Chatbot</h3>
+                        <p>
+                            A simple interactive chatbot created to practice loops,
+                            strings, conditions and input validation.
+                        </p>
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>Chatbot</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-number">03</div>
+                        <h3>Portfolio Website</h3>
+                        <p>
+                            A responsive personal portfolio designed to showcase
+                            skills, projects, education and contact information.
+                        </p>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Responsive</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section id="education" class="section alt-section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">EDUCATION</p>
+                    <h2>My learning <span>journey.</span></h2>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span>2026</span>
+                            <h3>Your Degree / Course</h3>
+                            <h4>Your College / University</h4>
+                            <p>Add your course, specialization and relevant details here.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span>2025</span>
+                            <h3>Python Full Stack Development Internship</h3>
+                            <h4>Internship / Organization Name</h4>
+                            <p>
+                                Add a short description of your internship experience,
+                                technologies used and key learning outcomes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section contact-section">
+            <div class="container contact-box">
+                <div>
+                    <p class="eyebrow">GET IN TOUCH</p>
+                    <h2>Let's build something <span>great together.</span></h2>
+                    <p>
+                        Have a project, opportunity or idea? Feel free to get in touch.
+                    </p>
+                </div>
+
+                <div class="contact-details">
+                    <a href="mailto:your@email.com">your@email.com</a>
+                    <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Your Name. All Rights Reserved.</p>
+            <a href="#home">Back to top ↑</a>
         </div>
-      </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <section id="projects" class="section section-alt">
-      <div class="container">
-        <p class="section-label">04 — PROJECTS</p>
-        <h2 class="section-title">Things I've worked on.</h2>
-
-        <div class="projects-grid">
-          <article class="project-card">
-            <div class="project-number">01</div>
-            <div>
-              <span class="project-type">WEB DEVELOPMENT</span>
-              <h3>Jewellery E-commerce Website</h3>
-              <p>
-                A jewellery-focused web project with an interest in dynamic pricing,
-                responsive design and a user-friendly shopping experience.
-              </p>
-              <div class="tags">
-                <span>HTML</span><span>CSS</span><span>JavaScript</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-number">02</div>
-            <div>
-              <span class="project-type">AI CONTENT</span>
-              <h3>AI-Powered Creative Content</h3>
-              <p>
-                Creating short-form animated content and experimenting with AI-assisted
-                video generation, prompting and social media optimization.
-              </p>
-              <div class="tags">
-                <span>AI Tools</span><span>Prompting</span><span>Video</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-number">03</div>
-            <div>
-              <span class="project-type">EDUCATION</span>
-              <h3>Technology Learning Programs</h3>
-              <p>
-                Practical learning activities for students covering coding, web technologies,
-                3D printing, VR and creative digital tools.
-              </p>
-              <div class="tags">
-                <span>Teaching</span><span>Coding</span><span>3D Printing</span>
-              </div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="contact-section">
-      <div class="container contact-inner">
-        <p class="section-label">05 — CONTACT</p>
-        <h2>Let's build something<br><span>meaningful together.</span></h2>
-        <p>
-          Whether it's a web project, educational initiative, AI idea or technology collaboration,
-          I'd love to connect.
-        </p>
-
-        <div class="contact-links">
-          <a href="mailto:nariyamansi1708@gmail.com">nariyamansi1708@gmail.com</a>
-          <a href="tel:+919726222326">+91 97262 22326</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container footer-content">
-      <p>© 2026 Mansi Nariya. All rights reserved.</p>
-      <a href="#home">Back to top ↑</a>
-    </div>
-  </footer>
-
-  <script>
-    const menuToggle = document.getElementById("menuToggle");
-    const navLinks = document.getElementById("navLinks");
-
-    menuToggle.addEventListener("click", () => {
-      navLinks.classList.toggle("active");
-    });
-
-    document.querySelectorAll(".nav-links a").forEach(link => {
-      link.addEventListener("click", () => {
-        navLinks.classList.remove("active");
-      });
-    });
-  </script>
+    </footer>
 
 </body>
 </html>
